@@ -13,3 +13,47 @@ a{
     color: inherit;
     transition: 0.3s;
 }
+
+a:hover{
+    opacity:0.7;
+    transition: 0.3s;
+}
+
+img{
+    width:100%;
+    margin: 0 auto;
+}
+/* header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+    background-color: #FFF;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+.header-ttl{
+    font-size: 24px;
+    width: 80px;
+}
+
+.header-nav-list{
+    display:flex;
+    font-weight: bold;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right:30px;
+}
+.menu{
+    display:none;
+}
+.drawer-nav{
+    display: none;
+}
